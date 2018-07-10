@@ -1,5 +1,6 @@
 SELECT * FROM coinradar.focuscoin;
 select * from coinradar.coinbasicinfo;
+SELECT * FROM coinradar.maincoin;
 
 create table coinradar.exchange(exname varchar(255) unique ) ;
 
